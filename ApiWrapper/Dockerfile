@@ -1,12 +1,14 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-# Копіюємо тільки файл проекту, щоб відновити залежності
-COPY ["ApiWrapper.csproj", "./"]
-RUN dotnet restore "ApiWrapper.csproj"
 
-# Копіюємо решту коду
+# Копіюємо всі файли проекту, щоб Docker бачив структуру рішення
 COPY . .
-RUN dotnet publish "ApiWrapper.csproj" -c Release -o /app/publish
+
+# Відновлюємо залежності для вашого API
+RUN dotnet restore "ApiWrapper/ApiWrapper.csproj"
+
+# Збираємо API
+RUN dotnet publish "ApiWrapper/ApiWrapper.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
