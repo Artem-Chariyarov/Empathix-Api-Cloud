@@ -526,16 +526,16 @@
           }
         }
       },
-      "xunit.runner.visualstudio/3.0.2": {
+      "xunit.runner.visualstudio/3.1.4": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "build": {
-          "build/net6.0/xunit.runner.visualstudio.props": {}
+          "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
       "EmpathixProject/1.0.0": {
@@ -1449,10 +1449,10 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/3.0.2": {
-      "sha512": "oXbusR6iPq0xlqoikjdLvzh+wQDkMv9If58myz9MEzldS4nIcp442Btgs2sWbYWV+caEluMe2pQCZ0hUZgPiow==",
+    "xunit.runner.visualstudio/3.1.4": {
+      "sha512": "5mj99LvCqrq3CNi06xYdyIAXOEh+5b33F2nErCzI5zWiDdLHXiPXEWFSUAF8zlIv0ZWqjZNCwHTQeAPYbF3pCg==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/3.0.2",
+      "path": "xunit.runner.visualstudio/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1461,12 +1461,12 @@
         "build/net472/xunit.abstractions.dll",
         "build/net472/xunit.runner.visualstudio.props",
         "build/net472/xunit.runner.visualstudio.testadapter.dll",
-        "build/net6.0/xunit.abstractions.dll",
-        "build/net6.0/xunit.runner.visualstudio.props",
-        "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
+        "build/net8.0/xunit.abstractions.dll",
+        "build/net8.0/xunit.runner.visualstudio.props",
+        "build/net8.0/xunit.runner.visualstudio.testadapter.dll",
         "lib/net472/_._",
-        "lib/net6.0/_._",
-        "xunit.runner.visualstudio.3.0.2.nupkg.sha512",
+        "lib/net8.0/_._",
+        "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -1482,7 +1482,7 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.11",
       "Swashbuckle.AspNetCore >= 7.0.0",
       "xunit >= 2.9.3",
-      "xunit.runner.visualstudio >= 3.0.2"
+      "xunit.runner.visualstudio >= 3.1.4"
     ]
   },
   "packageFolders": {
@@ -1557,7 +1557,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[3.0.2, )"
+            "version": "[3.1.4, )"
           }
         },
         "imports": [
@@ -1600,16 +1600,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: xunit.runner.visualstudio from 3.1.4 to 3.0.2. Reference the package directly from the project to select a different version. \r\n ApiWrapper -> EmpathixProject -> xunit.runner.visualstudio (>= 3.1.4) \r\n ApiWrapper -> xunit.runner.visualstudio (>= 3.0.2)",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

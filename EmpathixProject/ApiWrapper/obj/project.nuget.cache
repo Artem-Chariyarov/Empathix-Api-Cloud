@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "B1fBTacalrE=",
-  "success": false,
+  "dgSpecHash": "9iqcRyu559o=",
+  "success": true,
   "projectFilePath": "C:\\Users\\alex3\\OneDrive\\Desktop\\Empathix-Lab2\\EmpathixProject1\\EmpathixProject\\ApiWrapper\\ApiWrapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alex3\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
@@ -26,23 +26,11 @@
     "C:\\Users\\alex3\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
     "C:\\Users\\alex3\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
     "C:\\Users\\alex3\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
-    "C:\\Users\\alex3\\.nuget\\packages\\xunit.runner.visualstudio\\3.0.2\\xunit.runner.visualstudio.3.0.2.nupkg.sha512",
+    "C:\\Users\\alex3\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.4\\xunit.runner.visualstudio.3.1.4.nupkg.sha512",
     "C:\\Users\\alex3\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
     "C:\\Users\\alex3\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
     "C:\\Users\\alex3\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
     "C:\\Users\\alex3\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: xunit.runner.visualstudio from 3.1.4 to 3.0.2. Reference the package directly from the project to select a different version. \r\n ApiWrapper -> EmpathixProject -> xunit.runner.visualstudio (>= 3.1.4) \r\n ApiWrapper -> xunit.runner.visualstudio (>= 3.0.2)",
-      "projectPath": "C:\\Users\\alex3\\OneDrive\\Desktop\\Empathix-Lab2\\EmpathixProject1\\EmpathixProject\\ApiWrapper\\ApiWrapper.csproj",
-      "filePath": "C:\\Users\\alex3\\OneDrive\\Desktop\\Empathix-Lab2\\EmpathixProject1\\EmpathixProject\\ApiWrapper\\ApiWrapper.csproj",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
