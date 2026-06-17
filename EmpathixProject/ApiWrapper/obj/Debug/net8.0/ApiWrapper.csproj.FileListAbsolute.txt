@@ -1,0 +1,8 @@
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.csproj.AssemblyReference.cache
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.AssemblyInfoInputs.cache
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.AssemblyInfo.cs
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.csproj.CoreCompileInputs.cache
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alex3\OneDrive\Desktop\Empathix-Lab2\EmpathixProject1\EmpathixProject\ApiWrapper\obj\Debug\net8.0\ApiWrapper.sourcelink.json
