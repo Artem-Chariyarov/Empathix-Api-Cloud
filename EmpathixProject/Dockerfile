@@ -1,10 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-
-# Копіюємо все, що лежить всередині EmpathixProject
 COPY . .
-
-# Тепер шлях до API виглядає так:
+# Тепер він точно знайде шлях, бо API лежить у підпапці, а Dockerfile в корені
 RUN dotnet publish "ApiWrapper/ApiWrapper.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
